@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: gray;
+    margin: 35px auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: beige;
+    text-align: center;
+    padding: 0 100px;
+}
+.square{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color:transparent;
+    border: 2px solid red;
+    margin: 60px;
+    border-radius: 10%;
+}
+.square img{
+    width: 40px;
+    height: 40px;
+    margin-top: 34px;
+    margin-right: 250px;
+}
+.square input{
+    position: absolute;
+    padding: 8px;
+    right: 100px;
+    margin-top: 30px;
+}
+.square button,
+.square-one button{
+    position: absolute;
+    background-color: tan;
+    border: none;
+    box-shadow: none;
+    font-size:13px;
+    padding: 8px;
+    margin-top: 100px;
+    right: 150px;
+    width: 100px;
+}
+.square .hidden{
+    display: none;
+}
+.square p.register{
+    color: red;
+    margin-top: 80px;
+}
+.square p.register a{
+    color:black;
+    text-decoration: none;
+}
+.container-one{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: beige;
+    text-align: center;
+    padding: 0 100px;
+}
+.square-one{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 5px solid red;
+    margin: 10%;
+    border-radius: 10%;
+}
+.square-one label{
+    position: absolute;
+    right: 300px;
+    margin-top: 100px;
+}
+.square-one label:nth-child(2){
+    right: 300px;
+    margin-top: 55px;
+}
+.passwordLabel{
+    right: 200px;
+    top: 150px;
+}
+
+.fullName{
+    position: absolute;
+    padding: 5px;
+    right: 100px;
+    top: 157px;
+}    
+.userName{
+    position: absolute;
+    padding: 5px;
+    right: 100px;
+    top: 200px;
+}
+.password{
+    position: absolute;
+    padding: 5px;
+    right: 100px;
+    top: 245px
+}
+.square-one button{
+    right: 100px;
+    top: 200px;
+}
+.square button:hover,
+.square-one button:hover{
+    cursor: pointer;
+  }
